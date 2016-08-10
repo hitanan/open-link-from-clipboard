@@ -23,12 +23,9 @@
 		"page": "options.html"
 	},
 	"content_scripts": [   {
-      "matches": ["http://192.168.20.121/MPAS/FN0601/*"],
-      "js": ["jquery.min.js", "manpower.js"]
-    }, {
-      "matches": ["https://www.chotot.com/quang-nam-da-nang/thue-phong-tro*"],
-      "js": ["jquery.min.js", "sites/chotot.com/index.js"]
-    }
+	      "matches": ["http://192.168.20.121/MPAS/FN0601/*"],
+		      "js": ["jquery.min.js", "manpower.js"]
+		}
 	],
 	"manifest_version": 2
 }
